@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q ./*.zip -d app
+      - run: unzip -q .github/workflows/star-king-apk-ready.zip -d app
       - uses: actions/setup-node@v4
         with:
           node-version: 22
